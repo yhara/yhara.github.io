@@ -6,10 +6,11 @@
 <head>
   <meta charset="utf-8">
   <title>Blog Archive - My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Yutaka HARA (yhara)">
 
   
-  <meta name="description" content=" Blog Archive Recent Posts ">
+  <meta name="description" content="Blog Archive 2013 initial post
+Jun 10 2013 posted in octopress Recent Posts initial post GitHub Repos Status updating... @yhara on GitHub $.domReady &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +73,23 @@
   
   <div id="blog-archives">
 
+
+
+  
+  <h2>2013</h2>
+
+<article>
+  
+<h1><a href="/blog/2013/06/10/initial-post/">initial post</a></h1>
+<time datetime="2013-06-10T21:09:00+09:00" pubdate><span class='month'>Jun</span> <span class='day'>10</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/octopress/'>octopress</a></span>
+</footer>
+
+
+</article>
+
 </div>
 
   
@@ -85,7 +103,40 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2013/06/10/initial-post/">initial post</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/yhara">@yhara</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'yhara',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
@@ -99,7 +150,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
+  Copyright &copy; 2013 - Yutaka HARA (yhara) -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
   <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>

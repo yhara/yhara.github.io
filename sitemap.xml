@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://yhara.github.io/blog/2013/06/10/initial-post/</loc>
+        <lastmod>2013-06-10T21:10:56+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://yhara.github.io/blog/archives/</loc>
-        <lastmod>2013-06-10T20:56:49+09:00</lastmod>
+        <lastmod>2013-06-10T21:10:56+09:00</lastmod>
     </url>
     <url>
         <loc>http://yhara.github.io/</loc>
-        <lastmod>2013-06-10T20:56:49+09:00</lastmod>
+        <lastmod>2013-06-10T21:10:56+09:00</lastmod>
     </url>
     <url>
         <loc>http://yhara.github.io/robots.txt</loc>
